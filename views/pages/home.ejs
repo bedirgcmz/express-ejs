@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include("../partials/head") %>
+  <body>
+    <%- include("../partials/header") %> <% if (locals.underline !== undefined) { %> <% if
+    (underline) { %>
+    <p class="underline">This should be underlined!</p>
+    <% } else { %>
+    <p>No underlines!</p>
+    <% } %> <% } %>
+  </body>
+</html>
